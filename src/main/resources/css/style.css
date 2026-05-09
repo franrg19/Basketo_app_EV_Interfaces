@@ -1,7 +1,7 @@
 /* Fondo general */
 .root {
 
-    -fx-background-color: #1e1e2f;
+    -fx-background-color: #2E6F40;
 
     -fx-padding: 20;
 }
@@ -9,7 +9,7 @@
 /* Título */
 .titulo {
 
-    -fx-text-fill: white;
+    -fx-text-fill: orange;
 
     -fx-font-size: 24px;
 
@@ -21,21 +21,20 @@
 
     -fx-background-radius: 10;
 
-    -fx-font-size: 14px;
-
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
     -fx-padding: 10;
-
     -fx-pref-width: 250;
 }
 
 /* Botones */
 .boton {
 
-    -fx-background-color: #4CAF50;
+    -fx-background-color: #FFA500;
 
     -fx-text-fill: white;
 
-    -fx-font-size: 14px;
+    -fx-font-size: 16px;
 
     -fx-font-weight: bold;
 

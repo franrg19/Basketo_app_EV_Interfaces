@@ -7,6 +7,9 @@ import javafx.beans.property.StringProperty;
 
 /**
  * Esta clase representa al producto que añadimos a la lista de la compra
+ * Cada producto tendrá:
+ * - un nombre
+ * -un estado comprado.
  */
 public class Producto {
     private StringProperty nombre;

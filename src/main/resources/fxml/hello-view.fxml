@@ -11,10 +11,10 @@
       fx:controller="com.ejemplo.lista_compra.controller.HelloController"
       styleClass="root">
 
-
+<!--LOGO DE LA APLICACIÓN -->
     <ImageView
-            fitWidth="120"
-            fitHeight="120"
+            fitWidth="150"
+            fitHeight="150"
             preserveRatio="true">
         <image>
             <Image url="@/logo_basketo.png"/>
@@ -22,19 +22,26 @@
 
     </ImageView>
 
-    <Label text="Lista de la Compra" styleClass="titulo"/>
+    <!--Muestra el título de la aplicación-->
+    <Label text="LISTA DE LA COMPRA" styleClass="titulo"/>
 
+    <!--Campo de texto-->
     <TextField fx:id="txtProducto"
-               promptText="Introduce un producto" styleClass="campoTexto"/>
+               promptText="Introduce un producto"
+               styleClass="campoTexto"
+               onAction="#agregarProducto"/>
 
+    <!--Botón agregar-->
     <Button text="Agregar"
             onAction="#agregarProducto" styleClass="boton"/>
 
+    <!--Lista de productos-->
     <ListView fx:id="listaProductos"
               prefHeight="200"
               prefWidth="300"
               styleClass="lista"/>
 
+    <!--Botón eliminar-->
     <Button text="Eliminar seleccionado"
             onAction="#eliminarProducto" styleClass="botonEliminar"/>
 
