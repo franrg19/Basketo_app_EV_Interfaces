@@ -14,6 +14,12 @@ La aplicación permite:
 Este proyecto ha sido desarrollado siguiendo una arquitectura MVC (Modelo - Vista - Controlador).
 
 ---
+<h2>📸 Captura de pantalla</h2>
+
+<p align="center">
+  <img src="images/basketo.png" width="350">
+</p>
+
 
 # 🚀 Tecnologías utilizadas
 
