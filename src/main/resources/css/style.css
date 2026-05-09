@@ -1,0 +1,79 @@
+/* Fondo general */
+.root {
+
+    -fx-background-color: #1e1e2f;
+
+    -fx-padding: 20;
+}
+
+/* Título */
+.titulo {
+
+    -fx-text-fill: white;
+
+    -fx-font-size: 24px;
+
+    -fx-font-weight: bold;
+}
+
+/* Campo texto */
+.campoTexto {
+
+    -fx-background-radius: 10;
+
+    -fx-font-size: 14px;
+
+    -fx-padding: 10;
+
+    -fx-pref-width: 250;
+}
+
+/* Botones */
+.boton {
+
+    -fx-background-color: #4CAF50;
+
+    -fx-text-fill: white;
+
+    -fx-font-size: 14px;
+
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 10;
+
+    -fx-padding: 10 20 10 20;
+}
+
+/* Hover botón */
+.boton:hover {
+
+    -fx-background-color: #45a049;
+}
+
+/* Botón eliminar */
+.botonEliminar {
+
+    -fx-background-color: #d9534f;
+
+    -fx-text-fill: white;
+
+    -fx-font-size: 14px;
+
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 10;
+
+    -fx-padding: 10 20 10 20;
+}
+
+/* Hover eliminar */
+.botonEliminar:hover {
+
+    -fx-background-color: #c9302c;
+}
+
+/* Lista */
+.lista {
+
+    -fx-background-radius: 10;
+}

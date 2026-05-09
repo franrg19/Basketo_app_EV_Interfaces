@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox spacing="15"
+      alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.ejemplo.lista_compra.controller.HelloController"
+      styleClass="root">
+
+
+    <ImageView
+            fitWidth="120"
+            fitHeight="120"
+            preserveRatio="true">
+        <image>
+            <Image url="@/logo_basketo.png"/>
+        </image>
+
+    </ImageView>
+
+    <Label text="Lista de la Compra" styleClass="titulo"/>
+
+    <TextField fx:id="txtProducto"
+               promptText="Introduce un producto" styleClass="campoTexto"/>
+
+    <Button text="Agregar"
+            onAction="#agregarProducto" styleClass="boton"/>
+
+    <ListView fx:id="listaProductos"
+              prefHeight="200"
+              prefWidth="300"
+              styleClass="lista"/>
+
+    <Button text="Eliminar seleccionado"
+            onAction="#eliminarProducto" styleClass="botonEliminar"/>
+
+</VBox>
